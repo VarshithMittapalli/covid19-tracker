@@ -29,7 +29,7 @@ function Cards({data :{confirmed, recovered, deaths, lastUpdate}}){
                             <CountUp start={0} end={recovered.value} duration={2.3} separator=","/>
                         </Typography>                       
                          <Typography color="textSecondary">{new Date (lastUpdate).toDateString()}</Typography>
-                        <Typography varient="body2">Number of recoverd cases from COVID-19</Typography>
+                        <Typography varient="body2">Number of recovered cases from COVID-19</Typography>
                     </CardContent>
                 </Grid>
 
